@@ -14,6 +14,12 @@ public class Driver {
 		int i1 = 0,i2 = 0,i3=0;
 		 
 		String k = "3\n6,5"; //Input String
+		//Test with "1,2" = 3
+		//Test with "-1,2" results in negativenumber exception
+		//Test with "-1,-2" results in negative number exception and prints both numbers
+		//Test with "1\n3,5" results in 1+3+5 = 9
+		//Test with "//;\n5;4" results in 5,4 which leads to sum = 9
+		
 		
 		
 		try {

@@ -3,7 +3,7 @@ package com.incubyte.Calculator;
 public class Calculator {
 	//Data members
 	//Three strings data types
-	public String a3 = null;
+	public String a3 = "";
 	public String a4 = "";
 	public String a5 = "";
 	
@@ -40,7 +40,7 @@ public class Calculator {
 		for(int j = k+1; j<a3.length();j++) {
 			char b = a3.charAt(j);
 			a5 = a5 +b;
-		}	
+		}
 	}
 	
 	//Method to quantify the string on the left side of comma if line break("\n") is present.
